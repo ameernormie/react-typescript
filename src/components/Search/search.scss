@@ -1,0 +1,25 @@
+@import "../../styles/common.scss";
+
+.search-wrapper {
+  padding: 10px;
+
+  .search-heading {
+    font-size: 18px;
+  }
+  .search-bar-wrapper {
+    position: relative;
+
+    .icon {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 10px;
+    }
+  }
+
+  .search-content-wrapper {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+}

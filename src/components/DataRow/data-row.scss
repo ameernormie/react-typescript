@@ -1,0 +1,28 @@
+
+.row-container {
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    margin: 5px 10px 15px;
+    box-shadow: 0 0px 28px 0px rgba(0, 0, 0, 0.07);
+
+    .header-cell {
+        font-weight: bold;
+        color: #5f6062;
+        
+        span {
+            color: #c0c0c2;
+        }
+    }
+
+    .row-header, .row-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+    .row-header {
+        border-bottom: 1px solid #eaeaea;
+        padding: 15px 10px;
+    }
+}

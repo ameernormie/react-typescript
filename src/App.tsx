@@ -1,13 +1,14 @@
 import React from "react";
 
+import { DataRow, Search } from "./components";
+import "./styles/base.scss"
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
+      <Search />
+      <DataRow />
+      <DataRow />
     </div>
   );
 }

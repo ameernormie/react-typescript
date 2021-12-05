@@ -1,0 +1,27 @@
+.input-bar {
+  border: 2px solid #b7b7b9;
+  border-radius: 4px;
+  padding: 15px;
+  padding-left: 40px;
+  outline: none;
+  font-size: 16px;
+
+  &:focus-visible {
+      border: 2px solid #6982de;
+  }
+}
+
+.action-button {
+    border: 1px solid #b7b7b9;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #5f5e63;
+
+    &:hover {
+        border-color: #6982de;
+        cursor: pointer;
+    }
+}
